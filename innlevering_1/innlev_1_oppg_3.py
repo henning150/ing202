@@ -14,5 +14,31 @@ def log(num):
         return 1+log(num/10);
     else:
         return 0;
- 
+
+
+print("delelig (10, 5):")
+print(delelig(10, 5))
+print("delelig (9, 5):")
+print(delelig(9, 5))
+
+print("sist (12345):")
+print(sist(12345))
+
+print("log (365)")
+print(log(365))
+
+print("log (0)")
 print(log(0))
+
+
+#Output:
+# delelig (10, 5):
+# False
+# delelig (9, 5):
+# False
+# sist (12345):
+# 5
+# log (365)
+# 2
+# log (0)
+# 0

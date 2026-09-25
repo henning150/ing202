@@ -25,3 +25,24 @@ print(f"Delelig på {delPa}:")
 print(f"[{", ".join(delelig)}]")
 print(f"Ikke delelig på {delPa}:")
 print(f"[{", ".join(ikkeDelelig)}]")
+
+
+#Output:
+# Skriv inn et positivt tall (eller 0 når du er ferdig):
+# 9
+# Skriv inn et positivt tall (eller 0 når du er ferdig):
+# 8
+# Skriv inn et positivt tall (eller 0 når du er ferdig):
+# 27
+# Skriv inn et positivt tall (eller 0 når du er ferdig):
+# 28
+# Skriv inn et positivt tall (eller 0 når du er ferdig):
+# 0
+
+# Hvilket tall vil du dele tallene over på?
+# 3
+
+# Delelig på 3:
+# [9, 27]
+# Ikke delelig på 3:
+# [8, 28]
